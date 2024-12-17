@@ -1,0 +1,44 @@
+/* Cyberpunk Style CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: url("web/static/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #00ffea;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  text-shadow: 0px 0px 5px #00ffea, 0px 0px 10px #00ffea, 0px 0px 15px #00ffea;
+}
+
+button {
+  background: #ff005b;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-shadow: 0px 0px 5px #ff005b;
+  box-shadow: 0px 0px 10px #ff005b;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #ff6b9c;
+  box-shadow: 0px 0px 20px #ff6b9c;
+  transition: 0.3s ease;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
